@@ -7,17 +7,7 @@ html, body {
     scroll-behavior: smooth;
   }
   
-  ::selection {
-    color: black;
-    background-color: white;
-    text-shadow: none;
-  }
-  
-  a {
-    color: white;
-    text-decoration: none;
-  }
-  
+  /*SCROLLBAR*/
   ::-webkit-scrollbar {
     width: 10px;
     border-radius: 10px;

@@ -1,0 +1,36 @@
+.NaviContainer {
+    width: 50%;
+    height: 60px;
+    background-color: black;
+    margin: auto;
+    border-radius: 0px 0px 50px 50px;
+    border: 5px solid red;
+    border-top: 0;
+}
+
+.NaviContainer > .NavUl {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+
+}
+
+.NaviContainer > .NavUl > a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.NavUl > a > li {
+    transform: scale(1);
+    transition: 500ms;
+}
+
+.NavUl > a > li:hover {
+    transform: scale(1.1);
+}
