@@ -18,8 +18,8 @@ html, body {
   }
    
   ::-webkit-scrollbar-thumb {
-    background: red;
-    border: 2px solid red;
+    background: #BC4749;
+    border: 2px solid #BC4749;
     border-radius: 10px;
   }
   
