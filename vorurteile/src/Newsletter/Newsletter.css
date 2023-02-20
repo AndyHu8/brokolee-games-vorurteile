@@ -1,0 +1,48 @@
+.newsletterContainer {
+    width: 100%;
+    height: auto;
+}
+
+.newsletterContainer > .newsletterContent {
+    width: 80%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.newsletterContent > h1 {
+    font-size: 2.5em;
+}
+
+.newsletterContent > p {
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
+.newsletterContent > .newsletterInput {
+    margin-top: 2.5em;
+    background-color: #67B44B;
+    display: inline-block;
+    border-radius: 30px;
+    border: 3px solid #67B44B;
+}
+
+.newsletterInput > input {
+    padding: 6px 10px;
+    font-size: 22px;
+    width: 25em;
+    border-radius: 30px;
+    border: none;
+}
+
+.newsletterInput > button {
+    padding: 6px 10px;
+    font-size: 22px;
+    border-radius: 30px;
+    background-color: #67B44B;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletterInput > input:focus {
+    outline: none;
+}

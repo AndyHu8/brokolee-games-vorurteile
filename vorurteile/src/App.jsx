@@ -1,5 +1,6 @@
 import Footer from "./Footer/Footer";
 import Navigation from "./Navigation/Navigation";
+import Newsletter from "./Newsletter/Newsletter";
 import Startseite from "./Startseite/Startseite";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navigation/>
       <Startseite/>
+      <Newsletter/>
       <Footer/>
     </div>
   );
