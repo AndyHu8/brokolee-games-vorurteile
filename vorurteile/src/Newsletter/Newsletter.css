@@ -5,7 +5,7 @@
 
 .newsletterContainer > .newsletterContent {
     width: 80%;
-    margin: 5% auto;
+    margin: 10% auto;
     text-align: center;
 }
 
@@ -15,11 +15,11 @@
 
 .newsletterContent > p {
     margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 1.5em;
 }
 
 .newsletterContent > .newsletterInput {
-    margin-top: 2.5em;
     background-color: #67B44B;
     display: inline-block;
     border-radius: 30px;
@@ -41,6 +41,8 @@
     background-color: #67B44B;
     border: none;
     cursor: pointer;
+    font-weight: bold;
+    color: white;
 }
 
 .newsletterInput > input:focus {
