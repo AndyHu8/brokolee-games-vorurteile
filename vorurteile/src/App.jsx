@@ -1,3 +1,4 @@
+import Footer from "./Footer/Footer";
 import Navigation from "./Navigation/Navigation";
 import Startseite from "./Startseite/Startseite";
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Navigation/>
       <Startseite/>
+      <Footer/>
     </div>
   );
 }

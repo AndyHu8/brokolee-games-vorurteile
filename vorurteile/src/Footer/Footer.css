@@ -1,0 +1,23 @@
+.footerContainer {
+    width: 100%;
+    height: auto;
+    background-color: #67B44B;
+    border-top: 5px solid white;
+}
+
+.footerContainer > .footerContent {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5%;
+}
+
+.footerContent > h3 {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footerContent > h3:hover {
+    color: #BC4749;
+}
