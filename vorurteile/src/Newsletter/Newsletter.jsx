@@ -4,11 +4,17 @@ const Newsletter = () => {
     return (
         <div id="Newsletter" className="newsletterContainer">
             <div className="newsletterContent">
-                <h1>Community Newsletter</h1>
-                <p>Jetzt schnellstmöglich eintragen & alle News über Brokolee Games, <br/> sowie die Spiele selbst bekommen!</p>
+                <h1>Newsletter</h1>
+                <p>Fühlen Sie sich in unserer Gesellschaft verurteilt? <br/>
+                Im Nachteil? <br/>
+                Von <span style={{ fontWeight: 'bold' }}>Vorurteilen</span> betroffen? <br/>
+                Wir wissen wie Sie sich fühlen & bereiten ein Spiel für Sie vor. <br/>
+                Für mehr Informationen, tragen Sie sich in den Newsletter ein. <br/>
+                <br/>
+                Es wird krass, Sie Schlawiner! ( ͡° ͜ʖ ͡°)</p>
                 <div className="newsletterInput">
                     <input type="text" placeholder="Deine Email Adresse, bitte." />
-                    <button>Abonnieren</button>
+                    <button>Abschicken</button>
                 </div>
             </div>
         </div>
