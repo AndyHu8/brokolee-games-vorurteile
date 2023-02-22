@@ -11,7 +11,7 @@ const Kontakt = () => {
                     Wir freuen uns auf Sie auf den nächsten Messen, Stammtischen, Gaming-Events, Brettspieleabenden und auch überall anders.</p>
                 <h2>Derlin & Schödel BrokoLee Games GbR</h2>
                 <h2>Postfach 11 33</h2>
-                <h2>82179 Gröbebenzell Deutschland</h2>
+                <h2>82179 Gröbenzell Deutschland</h2>
                 <h2>info@brokolee.games</h2>
             </div>
         </div>

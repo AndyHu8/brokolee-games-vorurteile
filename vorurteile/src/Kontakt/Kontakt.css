@@ -19,5 +19,35 @@
 .kontaktContent > p {
     text-align: justify;
     font-size: 1.5em;
-    padding: 5% 30%;
+    padding: 5% 25%;
+}
+
+@media screen and (max-width: 1000px) {
+    .kontaktContent > h1 {
+        font-size: 3em;
+    }
+
+    .kontaktContent > p {
+        font-size: 1.2em;
+        padding: 5% 15%;
+    }
+
+    .kontaktContent > h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .kontaktContent > h1 {
+        font-size: 2em;
+    }
+
+    .kontaktContent > p {
+        font-size: 1em;
+        padding: 5% 5%;
+    }
+
+    .kontaktContent > h2 {
+        font-size: 1em;
+    }
 }
