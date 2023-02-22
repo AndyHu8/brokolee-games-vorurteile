@@ -7,9 +7,10 @@
 }
 
 .startseiteContent {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin: 150px 0;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .startseiteContent > img {
@@ -43,4 +44,39 @@
 .ArrowIcon:hover {
     cursor: pointer;
     transform: translateY(10%);
+}
+
+@media screen and (max-width: 1000px) {
+    .startseiteContent > h1 {
+        font-size: 3.5em;
+    }
+
+    .startseiteContent > p {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .startseiteContent {
+        width: 80%;
+        margin: 150px auto;
+        padding: 10%;
+    }
+
+    .startseiteContent > img {
+        width: 100%;
+        margin-left: 25px;
+    }
+
+    .startseiteContent > h1 {
+        font-size: 2.5em;
+    }
+
+    .startseiteContent > p {
+        font-size: 1.5em;
+    }
+
+    .ArrowIcon {
+        width: 40px;
+    }
 }
