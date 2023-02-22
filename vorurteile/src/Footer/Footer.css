@@ -21,3 +21,20 @@
 .footerContent > h3:hover {
     color: #BC4749;
 }
+
+@media screen and (max-width: 1200px) {
+    .footerContent > h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerContent > h3 {
+       margin: 10px;
+    }
+}
