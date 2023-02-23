@@ -37,6 +37,7 @@
     width: 25em;
     border-radius: 30px;
     border: none;
+    box-sizing: border-box;
 }
 
 .newsletterInput > button {
@@ -52,4 +53,60 @@
 
 .newsletterInput > input:focus {
     outline: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .newsletterContent > h1 {
+        font-size: 3em;
+    }
+
+    .newsletterContent > p {
+        font-size: 1.2em;
+    }
+
+    .newsletterContent > .newsletterInput {
+        width: 32em;
+    }
+
+    .newsletterInput > input {
+        font-size: 18px;
+        width: 20em;
+    }
+
+    .newsletterInput > button {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .newsletterContent > p {
+        font-size: 1em;
+    }
+
+    .newsletterContent > .newsletterInput {
+        width: 23em;
+    }
+
+    .newsletterInput > input {
+        width: 12em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .newsletterContent > h1 {
+        font-size: 2em;
+    }
+
+    .newsletterContent > .newsletterInput {
+        width: 100%;
+    }
+
+    .newsletterInput > input {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .newsletterInput > button {
+        display: none;
+    }
 }
