@@ -13,8 +13,10 @@ const Newsletter = () => {
                 <br/>
                 Es wird krass, Sie Schlawiner! ( ͡° ͜ʖ ͡°)</p>
                 <div className="newsletterInput">
-                    <input type="text" placeholder="Deine Email Adresse, bitte." />
-                    <button>Abschicken</button>
+                    <form action="https://formsubmit.co/info@brokolee.games" method="POST">
+                        <input name="email" type="email" placeholder="Deine Email Adresse, bitte." required/>
+                        <button type="submit">Abonnieren</button>
+                    </form>
                 </div>
             </div>
         </div>

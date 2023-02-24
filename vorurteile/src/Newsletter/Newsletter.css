@@ -31,7 +31,7 @@
     width: 45em;
 }
 
-.newsletterInput > input {
+.newsletterInput > form > input {
     padding: 6px 10px;
     font-size: 22px;
     width: 25em;
@@ -40,7 +40,7 @@
     box-sizing: border-box;
 }
 
-.newsletterInput > button {
+.newsletterInput > form > button {
     padding: 6px 10px;
     font-size: 22px;
     border-radius: 30px;
@@ -68,12 +68,12 @@
         width: 32em;
     }
 
-    .newsletterInput > input {
+    .newsletterInput > form > input {
         font-size: 18px;
         width: 20em;
     }
 
-    .newsletterInput > button {
+    .newsletterInput > form > button {
         font-size: 18px;
     }
 }
@@ -87,7 +87,7 @@
         width: 23em;
     }
 
-    .newsletterInput > input {
+    .newsletterInput > form > input {
         width: 12em;
     }
 }
@@ -101,12 +101,12 @@
         width: 100%;
     }
 
-    .newsletterInput > input {
+    .newsletterInput > form > input {
         font-size: 1em;
         width: 100%;
     }
 
-    .newsletterInput > button {
+    .newsletterInput > form > button {
         display: none;
     }
 }
