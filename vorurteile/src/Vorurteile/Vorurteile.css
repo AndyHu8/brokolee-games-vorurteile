@@ -1,0 +1,104 @@
+.vorurteileContainer {
+    width: 100%;
+    height: auto;
+    background: url("../Bilder/Vorurteile_Pitchdeck.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vorurteileContent {
+    width: 80%;
+    margin: auto;
+    padding: 10%;
+}
+
+.vorurteileContent > .headlineImg {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.vorurteileContent > .kartenMitTextDiv {
+    margin: 5em 0;
+}
+
+.vorurteileContent > .kartenMitTextDiv > div {
+    padding: 2em 10em;
+    display: flex;
+}
+
+.vorurteileContent > .kartenMitTextDiv > div > img {
+    border-radius: 10px;
+    border: 5px solid white;
+    width: 300px;
+    margin: auto;
+}
+
+.vorurteileContent > .kartenMitTextDiv > div > h2 {
+    color: white;
+    text-align: justify;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.vorurteileContent > .map {
+    border-radius: 10px;
+    border: 5px solid white;
+    width: 800px;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 1450px) {
+    .vorurteileContent > .kartenMitTextDiv > div {
+        padding: 2em 5em;
+    }
+
+    .vorurteileContent > .kartenMitTextDiv > div > h2 {
+        font-size: 25px;
+    }
+
+    .vorurteileContent > .map {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .vorurteileContent > .kartenMitTextDiv > div {
+        padding: 2em 1em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .vorurteileContent > .headlineImg {
+        width: 400px;
+    }
+
+    .vorurteileContent {
+        width: 90%;
+        padding: 10% 5%;
+    }
+
+    .vorurteileContent > .kartenMitTextDiv > div {
+        padding: 2em 0;
+    }
+
+    .vorurteileContent > .kartenMitTextDiv > div > img {
+        width: 200px;
+    }
+
+    .vorurteileContent > .kartenMitTextDiv > div > h2 {
+        font-size: 20px;
+    }
+
+    .vorurteileContent > .map {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .vorurteileContent > .kartenMitTextDiv > div {
+        flex-direction: column;
+    }
+}
