@@ -54,7 +54,7 @@
     position: fixed;
     right: 0;
     height: 100%;
-    width: 40%;
+    width: 30%;
     background-color: #293133;
     display: none;
     transform: translateX(100%);
@@ -137,10 +137,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    .mobileNav {
-        width: 50%;
-    }
-
     .mobileNav > ul {
         font-size: 16px;
     }
