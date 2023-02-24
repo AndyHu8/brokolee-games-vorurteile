@@ -51,7 +51,7 @@
     color: white;
 }
 
-.newsletterInput > input:focus {
+.newsletterInput > form > input:focus {
     outline: none;
 }
 
