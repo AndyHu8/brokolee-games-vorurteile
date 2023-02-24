@@ -1,6 +1,6 @@
 import "./Footer.css"
-import Impressum from "../Bilder/Impressum_Brokolee_Test.pdf";
-import Datenschutz from "../Bilder/Datenschutz_Brokolee_Test.pdf";
+import Impressum from "../Bilder/Impressum_Brokolee_games.pdf";
+import Datenschutz from "../Bilder/datenschutzerklaerung.pdf";
 
 const Footer = () => {
     return (
