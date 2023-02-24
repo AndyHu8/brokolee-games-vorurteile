@@ -131,8 +131,16 @@
 }
 
 @media screen and (max-width: 600px) {
+    .mobileNav {
+        width: 40%;
+    }
+    
     .mobileNav > ul {
         font-size: 20px;
+    }
+
+    .mobileNav > ul > a {
+        padding: 60px 0;
     }
 }
 
