@@ -14,7 +14,7 @@
 }
 
 .vorurteileContent > .headlineImg {
-    width: 500px;
+    width: 600px;
     display: block;
     margin: auto;
 }
@@ -33,6 +33,10 @@
     border: 5px solid white;
     width: 300px;
     margin: auto;
+}
+
+.karte2Mobile {
+    display: none;
 }
 
 .vorurteileContent > .kartenMitTextDiv > div > h2 {
@@ -93,12 +97,41 @@
     }
 
     .vorurteileContent > .map {
-        width: 450px;
+        width: 500px;
     }
 }
 
 @media screen and (max-width: 750px) {
     .vorurteileContent > .kartenMitTextDiv > div {
         flex-direction: column;
+        gap: 2em;
+    }
+
+    .karte1Mobile {
+        display: none;
+    }
+
+    .karte2Mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .vorurteileContent > .map {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .vorurteileContent > .headlineImg {
+        width: 300px;
+    }
+
+    .vorurteileContent > .kartenMitTextDiv > div > h2 {
+        font-size: 1em;
+    }
+
+    .vorurteileContent > .map {
+        width: 90%;
     }
 }

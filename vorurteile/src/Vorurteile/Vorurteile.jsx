@@ -18,11 +18,12 @@ const Vorurteile = () => {
                             Allerdings oft Vorteile auf Kosten des Planeten bzw. des globalen Klimas.</h2>
                     </div>
                     <div>
+                        <img src={asset2} alt="Karte 2" className="karte2Mobile" />
                         <h2>Dieses sozialkritische Spiel stellt dabei Konstrukte wie Nationalitäten und Vorurteile in Zusammenhang mit dem eigenen Vorteil
                             und der Verschmutzung und Zerstörung des Planeten. Dabei manövriert es die Spieler in Zwickmühlen, in denen sie immer wieder zwischen ihrem
                             eigenen Vorteil und dem globalen Nachteil abwägen müssen, da sie durch ihr eigennütziges Handeln als Nationalität globale Effekte,
                             wie Naturkatastrophen etc., auslösen können, was schlussendlich sogar zum Armageddon und so zum Game Over für alle führen kann.</h2>
-                        <img src={asset2} alt="Karte 2" />
+                        <img src={asset2} alt="Karte 2" className="karte1Mobile"/>
                     </div>
                     <div>
                         <img src={asset3} alt="Karte 3" />
