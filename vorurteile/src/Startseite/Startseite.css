@@ -1,7 +1,10 @@
 .startseiteContainer {
+    background: url("../Bilder/Vorurteile_Pitchdeck.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 100%;
-    background-color: #293133;
     display: flex;
     justify-content: center;
 }
@@ -14,13 +17,13 @@
 }
 
 .startseiteContent > img {
-    width: 400px;
-    margin-left: 50px;
+    width: 800px;
+    margin: 100px 0px;
 }
 
 .startseiteContent > h1 {
     font-size: 5em;
-    color: #67B44B;
+    color: white;
     text-shadow: 5px 5px black;
     font-family: 'Permanent Marker', cursive;
     margin: 0;
@@ -30,7 +33,7 @@
     font-size: 3em;
     font-family: 'Permanent Marker', cursive;
     margin: 30px 0;
-    color: #BC4749;
+    color: white;
     text-shadow: 5px 5px black;
 }
 
@@ -54,6 +57,16 @@
     .startseiteContent > p {
         font-size: 2em;
     }
+
+    .startseiteContent > img {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .startseiteContent > img {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -65,7 +78,6 @@
 
     .startseiteContent > img {
         width: 100%;
-        margin-left: 25px;
     }
 
     .startseiteContent > h1 {

@@ -1,10 +1,7 @@
 .vorurteileContainer {
     width: 100%;
     height: auto;
-    background: url("../Bilder/Vorurteile_Pitchdeck.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #293133;
 }
 
 .vorurteileContent {

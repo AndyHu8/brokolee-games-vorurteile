@@ -41,13 +41,13 @@
 .burger {
     display: none;
     cursor: pointer;
-    color: white;
+    color: black;
     transition: 0.5s;
     transform: rotate(0deg);
 }
 
 .burger:hover {
-    color: #9C1717;
+    color: white;
 }
 
 .mobileNav {
@@ -114,7 +114,7 @@
         align-items: center;
         left: 0;
         justify-content: end;
-        background-color: #293133;
+        background-color: transparent;
     }
 
     .NaviContainer > .NavUl {
