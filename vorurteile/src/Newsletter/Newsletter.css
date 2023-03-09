@@ -12,7 +12,7 @@
 
 .newsletterContent > h1 {
     font-family: 'Permanent Marker', cursive;
-    color: #67B44B;
+    color: #9C1717;
     font-size: 4em;
     margin: 0;
 }
@@ -25,9 +25,9 @@
 }
 
 .newsletterContent > .newsletterInput {
-    background-color: #67B44B;
+    background-color: #9C1717;
     border-radius: 30px;
-    border: 3px solid #67B44B;
+    border: 3px solid #9C1717;
     width: 45em;
 }
 
@@ -44,7 +44,7 @@
     padding: 6px 10px;
     font-size: 22px;
     border-radius: 30px;
-    background-color: #67B44B;
+    background-color: #9C1717;
     border: none;
     cursor: pointer;
     font-weight: bold;

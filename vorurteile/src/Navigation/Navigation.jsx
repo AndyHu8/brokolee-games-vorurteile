@@ -30,8 +30,7 @@ const Navigation = () => {
         <>
         <div className="NaviContainer">
             <ul className="NavUl">
-                <a href="#Startseite"><li>Startseite</li></a>
-                <a href="#Vorurteile"><li>Vorurteile</li></a>
+                <a href="#Startseite"><li>Vorurteile</li></a>
                 <a href="#Newsletter"><li>Newsletter</li></a>
                 <a href="#Kontakt"><li>Kontakt</li></a>
             </ul>
@@ -40,8 +39,7 @@ const Navigation = () => {
 
         <div className="mobileNav">
             <ul>
-                <a href="#Startseite"><li className='firstLi' onClick={showNav}>Startseite</li></a>
-                <a href="#Vorurteile"><li className='firstLi' onClick={showNav}>Vorurteile</li></a>
+                <a href="#Startseite"><li className='firstLi' onClick={showNav}>Vorurteile</li></a>
                 <a href="#Newsletter"><li className='firstLi' onClick={showNav}>Newsletter</li></a>
                 <a href="#Kontakt"><li className='firstLi' onClick={showNav}>Kontakt</li></a>
             </ul>

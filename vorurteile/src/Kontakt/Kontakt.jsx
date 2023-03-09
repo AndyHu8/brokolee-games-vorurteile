@@ -12,7 +12,7 @@ const Kontakt = () => {
                 <h2>Derlin & Schödel BrokoLee Games GbR</h2>
                 <h2>Postfach 11 33</h2>
                 <h2>82179 Gröbenzell Deutschland</h2>
-                <h2>info@brokolee.games</h2>
+                <h2>info@vorurteile.games</h2>
             </div>
         </div>
     )

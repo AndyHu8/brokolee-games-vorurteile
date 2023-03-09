@@ -7,7 +7,7 @@ import asset3 from "../Bilder/Asset_3.png";
 
 const Vorurteile = () => {
     return (
-        <div id="Vorurteile" className="vorurteileContainer">
+        <div className="vorurteileContainer">
             <div className="vorurteileContent">
                 <img src={headline} alt="Vor[ur]teile" className="headlineImg"/>
                 <div className="kartenMitTextDiv">

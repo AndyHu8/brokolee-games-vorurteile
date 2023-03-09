@@ -1,8 +1,9 @@
 .footerContainer {
     width: 100%;
     height: auto;
-    background-color: #67B44B;
+    background-color: #9C1717;
     border-top: 5px solid white;
+    color: white;
 }
 
 .footerContainer > .footerContent {
@@ -19,7 +20,7 @@
 }
 
 .footerContent > h3:hover {
-    color: #BC4749;
+    color: black;
 }
 
 @media screen and (max-width: 1200px) {

@@ -1,7 +1,7 @@
 .NaviContainer {
     width: 50%;
     height: 60px;
-    background-color: #67B44B;
+    background-color: #9C1717;
     margin: auto;
     border-radius: 0px 0px 50px 50px;
     border: 5px solid white;
@@ -22,7 +22,7 @@
 }
 
 .NaviContainer > .NavUl > a {
-    color: black;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
@@ -34,7 +34,7 @@
 }
 
 .NavUl > a > li:hover {
-    color: #BC4749;
+    color: black;
 }
 
 /*MOBILE NAV*/
@@ -47,7 +47,7 @@
 }
 
 .burger:hover {
-    color: #67B44B;
+    color: #9C1717;
 }
 
 .mobileNav {
@@ -86,13 +86,13 @@
 }
 
 .mobileNav > ul > a > li:hover{
-    color: #67B44B;
+    color: #9C1717;
 }
 
 .logoRotate {
     transition: 0.5s;
     transform: rotate(90deg);
-    color: #67B44B;
+    color: #9C1717;
 }
 
 .panelSlideIn {
