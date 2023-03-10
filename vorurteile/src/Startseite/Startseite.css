@@ -10,7 +10,7 @@
 }
 
 .startseiteContent {
-    margin: 150px 0;
+    margin: 200px 0;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -18,15 +18,8 @@
 
 .startseiteContent > img {
     width: 800px;
-    margin: 100px 0px;
-}
-
-.startseiteContent > h1 {
-    font-size: 5em;
-    color: white;
-    text-shadow: 5px 5px black;
-    font-family: 'Permanent Marker', cursive;
-    margin: 0;
+    margin: 150px 0px;
+    margin-bottom: 100px;
 }
 
 .startseiteContent > p {
@@ -50,22 +43,19 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .startseiteContent > h1 {
-        font-size: 3.5em;
-    }
-
     .startseiteContent > p {
         font-size: 2em;
     }
 
     .startseiteContent > img {
         width: 600px;
+        margin-bottom: 50px;
     }
 }
 
 @media screen and (max-width: 700px) {
     .startseiteContent > img {
-        width: 400px;
+        width: 500px;
     }
 }
 
@@ -78,10 +68,6 @@
 
     .startseiteContent > img {
         width: 100%;
-    }
-
-    .startseiteContent > h1 {
-        font-size: 2.5em;
     }
 
     .startseiteContent > p {
